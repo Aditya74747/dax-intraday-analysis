@@ -11,10 +11,38 @@ hour?** The project tests this with fixed rules, an exhaustive search of
 investment plans.
 
 > The full output, with every table, is in [results/REPORT.md](results/REPORT.md).
-> Data from 4 Jan 2010 to 2 Nov 2026. Past results do not predict future
-> returns, and nothing here is financial advice.
+> Data from 4 Jan 2010 to 2 Nov 2026. Past results do not predict future!!!
+> returns, and nothing here is financial advice!!!
 
 ![DAX price history](results/charts/dax_price.png)
+
+## About the DAX
+
+The **DAX** (Deutscher Aktienindex) is Germany's main stock market index. It
+tracks the **40 largest German companies** listed on the Frankfurt Stock
+Exchange, such as SAP, Siemens, Allianz, Deutsche Telekom, Airbus and
+Mercedes-Benz. It had 30 members until September 2021.
+
+| | |
+| --- | --- |
+| Run by | Deutsche Börse (calculated by its index business, STOXX) |
+| Started | 1 July 1988, from a base value of 1,000 at the end of 1987 |
+| Weighting | By free-float market value, with any one company capped at 10% |
+| Trading hours | Xetra, 09:00 to 17:30 Frankfurt time, updated every second |
+| Type | Performance (total-return) index: dividends are counted as reinvested |
+| ISIN | DE0008469008 |
+
+**Tickers**
+
+| Source | Ticker |
+| --- | --- |
+| Yahoo Finance (used here) | `^GDAXI` |
+| Bloomberg | `DAX Index` |
+| Reuters / LSEG | `.GDAXI` |
+
+The index itself can't be bought. Investors get the same exposure through DAX
+ETFs, for example iShares Core DAX UCITS ETF (Xetra: `EXS1`), which is the kind
+of product the buy-only plans in this study imitate.
 
 ## Key findings
 
