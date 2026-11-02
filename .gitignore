@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+
+# Virtual environments
+.venv
+
+# Downloaded price data (Yahoo Finance terms don't allow redistributing it)
+data/
+*.csv
+*.xlsx
+
+# Local editor and assistant settings
+.claude/
+.vscode/

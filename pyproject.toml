@@ -1,0 +1,26 @@
+[project]
+name = "dax-history"
+version = "0.2.0"
+description = "Download DAX prices and backtest buy-and-hold, dip-buying and hour-of-day investing plans"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "yfinance>=1.7.0",
+]
+
+[project.scripts]
+dax-history = "dax_history:main"
+dax-report = "dax_history.analysis.report:main"
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
