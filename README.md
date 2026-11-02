@@ -11,7 +11,11 @@ hour?** The project tests this with fixed rules, an exhaustive search of
 investment plans.
 
 > The full output, with every table, is in [results/REPORT.md](results/REPORT.md).
+<<<<<<< HEAD
 > Data from 4 Jan 2010 to 2 Nov 2026. Past results do not predict future!!!
+=======
+> Data from 4 Jan 2010 to 2 Nov 2026. Past results do not predict future
+>>>>>>> 24666f47bdec34a45e03bc5409d514eb005766cb
 > returns, and nothing here is financial advice!!!
 
 ![DAX price history](results/charts/dax_price.png)
