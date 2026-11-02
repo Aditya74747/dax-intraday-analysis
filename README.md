@@ -12,7 +12,7 @@ investment plans.
 
 > The full output, with every table, is in [results/REPORT.md](results/REPORT.md).
 > Data from 4 Jan 2010 to 2 Nov 2026. Past results do not predict future
-> returns, and nothing here is financial advice.
+> returns, and nothing here is financial advice!!!
 
 ![DAX price history](results/charts/dax_price.png)
 
